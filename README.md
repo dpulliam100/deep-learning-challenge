@@ -27,8 +27,11 @@ Data Preprocessing:
   -What variables should be removed from the input data because they are neither targets nor features? The variables removed from the data were "EIN" and "NAME" 
 
 Compiling, Training, and Evaluating the Model?
-  -How many neurons, layers, and activation functions did you select for your neural network model, and why?
-  -Were you able to achieve the target model performance?
-  -What steps did you take in your attempts to increase model performance?
+  -How many neurons, layers, and activation functions did you select for your neural network model, and why? My best performing model has 31 neurons, 4 layers, and uses "relu" activation. I did numerous trials, tested multiple layers, different numbers of neurons, and the way the neurons were structures (example: layer1 = 5, layer2 = 10, layer3 = 15 vs layer1 = 15, layer2 = 10, layer3 = 5).
+  
+  -Were you able to achieve the target model performance? The best performance I was able to achieve was .7319 accuracy, but after running the model for a second time with the same inputs the accuracy decreased for some unknown reason.
+  
+  -What steps did you take in your attempts to increase model performance? Changed the number of layers, epochs, neurons, structure of neurons.
 
-Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+Summary: 
+The overall results of my model were mediocre. I would prefer to have had a higher accuracy rating. I probably could have worked on the structure of the dataframe, created more dummy variables, and possibly removed more of the data or categorized it differently. Structuring the original dataframe differently might have increased the accuracy rating but it is not known.
